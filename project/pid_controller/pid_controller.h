@@ -61,7 +61,7 @@ public:
     /*
     * Initialize PID.
     */
-    void Init(double Kp, double Ki, double Kd, double output_lim_max, double output_lim_min, int throti);
+    void Init(double Kp, double Ki, double Kd, double output_lim_max, double output_lim_min, int twidi);
 
     /*
     * Update the PID error variables given cross track error.
